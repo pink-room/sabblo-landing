@@ -1,0 +1,55 @@
+/*
+Error: Undefined variable: "$white".
+        on line 1 of ./stylesheets/sass/base/generic.sass
+
+1: $body-background-color: $white !default
+2: $body-size: 16px !default
+3: $body-rendering: optimizeLegibility !default
+4: $body-family: $family-primary !default
+5: $body-color: $text !default
+6: $body-weight: $weight-normal !default
+
+Backtrace:
+./stylesheets/sass/base/generic.sass:1
+/Users/simaonogueira/.rvm/gems/ruby-2.4.1/gems/sass-3.5.5/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Users/simaonogueira/.rvm/gems/ruby-2.4.1/gems/sass-3.5.5/lib/sass/script/tree/node.rb:50:in `perform'
+/Users/simaonogueira/.rvm/gems/ruby-2.4.1/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:482:in `visit_variable'
+/Users/simaonogueira/.rvm/gems/ruby-2.4.1/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/simaonogueira/.rvm/gems/ruby-2.4.1/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/simaonogueira/.rvm/gems/ruby-2.4.1/gems/sass-3.5.5/lib/sass/stack.rb:79:in `block in with_base'
+/Users/simaonogueira/.rvm/gems/ruby-2.4.1/gems/sass-3.5.5/lib/sass/stack.rb:135:in `with_frame'
+/Users/simaonogueira/.rvm/gems/ruby-2.4.1/gems/sass-3.5.5/lib/sass/stack.rb:79:in `with_base'
+/Users/simaonogueira/.rvm/gems/ruby-2.4.1/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/simaonogueira/.rvm/gems/ruby-2.4.1/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/simaonogueira/.rvm/gems/ruby-2.4.1/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/simaonogueira/.rvm/gems/ruby-2.4.1/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/simaonogueira/.rvm/gems/ruby-2.4.1/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/Users/simaonogueira/.rvm/gems/ruby-2.4.1/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Users/simaonogueira/.rvm/gems/ruby-2.4.1/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/Users/simaonogueira/.rvm/gems/ruby-2.4.1/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/simaonogueira/.rvm/gems/ruby-2.4.1/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/Users/simaonogueira/.rvm/gems/ruby-2.4.1/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/simaonogueira/.rvm/gems/ruby-2.4.1/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/Users/simaonogueira/.rvm/gems/ruby-2.4.1/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Users/simaonogueira/.rvm/gems/ruby-2.4.1/gems/sass-3.5.5/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/simaonogueira/.rvm/gems/ruby-2.4.1/gems/sass-3.5.5/lib/sass/tree/root_node.rb:20:in `render'
+/Users/simaonogueira/.rvm/gems/ruby-2.4.1/gems/sass-3.5.5/lib/sass/engine.rb:290:in `render'
+/Users/simaonogueira/.rvm/gems/ruby-2.4.1/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:464:in `update_stylesheet'
+/Users/simaonogueira/.rvm/gems/ruby-2.4.1/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/simaonogueira/.rvm/gems/ruby-2.4.1/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/simaonogueira/.rvm/gems/ruby-2.4.1/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/simaonogueira/.rvm/gems/ruby-2.4.1/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+/Users/simaonogueira/.rvm/gems/ruby-2.4.1/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:320:in `block in watch'
+/Users/simaonogueira/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+/Users/simaonogueira/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+/Users/simaonogueira/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+/Users/simaonogueira/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+/Users/simaonogueira/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+/Users/simaonogueira/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+/Users/simaonogueira/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+/Users/simaonogueira/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$white\".\A         on line 1 of ./stylesheets/sass/base/generic.sass\A \A 1: $body-background-color: $white !default\A 2: $body-size: 16px !default\A 3: $body-rendering: optimizeLegibility !default\A 4: $body-family: $family-primary !default\A 5: $body-color: $text !default\A 6: $body-weight: $weight-normal !default"; }
