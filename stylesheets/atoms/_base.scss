@@ -87,7 +87,7 @@ section {
   top: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../images/back-video.gif");
+  background-image: url("../images/back-video.jpg");
   background-position: center;
   background-size: cover;
   filter: blur(1px) brightness(110%);
@@ -544,5 +544,48 @@ a {
   100% {
     transform: translateY(-50%) translateX(0);
     filter: opacity(1);
+  }
+}
+
+nav {
+  height: 81px;
+  background: var(--off-black);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 12px;
+  padding-left: 96px;
+  padding-right: 96px;
+  box-sizing: border-box;
+  align-items: center;
+
+  img {
+    width: auto;
+    height: 32px;
+  }
+
+  .link-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    a {
+      margin-right: 12px;
+      text-decoration: none !important;
+      color: white !important;
+
+      &:first-child {
+        margin-right: 32px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 545px) {
+  nav {
+    padding-left: 18px;
+    padding-right: 12px;
   }
 }
