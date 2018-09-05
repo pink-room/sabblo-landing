@@ -26,10 +26,3 @@ function show() {
   $('#mce-error-response').css("display", "block");
   $('#mce-success-response').css("display", "block");
 }
-
-function openPrivacy() {
-  document.querySelector(".overlay-privacy").style.display = "flex";
-}
-function closePrivacy() {
-  document.querySelector(".overlay-privacy").style.display = "none";
-}
